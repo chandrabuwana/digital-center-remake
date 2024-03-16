@@ -10,19 +10,19 @@ const menuData: Menu[] = [
   {
     id: 3,
     title: "CASE STUDY",
-    path: "/about",
+    path: "/case",
     newTab: false,
   },
   {
     id: 4,
     title: "COMPANY",
-    path: "/about",
+    path: "/company",
     newTab: false,
   },
   {
     id: 5,
     title: "BLOG",
-    path: "/about",
+    path: "/blog",
     newTab: false,
   },
   {

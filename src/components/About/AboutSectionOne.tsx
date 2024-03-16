@@ -1,5 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import Link from "next/link";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -21,48 +23,24 @@ const AboutSectionOne = () => {
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
-                mb="44px"
-              />
-
-              <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+          <div className="flex flex-wrap items-center">
+            <div className="w-full px-4 md:w-full mt-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 md:justify-around">
+                <h1 className="font-kanit text-4xl font-semibold md:text-9xl md:font-medium md:mb-20">Let's get in touch</h1>
+                <div className=" flex justify-end">
+                  <div className="flex items-center w-1/2">
+                    <h1 className="font-kanit text-right">Great! We're excited to hear from you and let's start something special togerter. call us for any inquery.</h1>
                   </div>
                 </div>
               </div>
+              <h1 className="font-kanit text-2xl md:text-2xl md:font-medium md:mb-10">Don't­ be­ afraid­ man­ !<br /> say hello</h1>
+              <Link className="font-kanit md:text-md md:font-light md:mb-1" href={'mailto:cs@digitalcenter.id'}>cs@digitalcenter.id</Link>
+              <p className="font-kanit py-10 md:text-md md:font-light md:mb-10">Wisma Staco 7th Floor Jl Casablanca Raya Kav. 18 Menteng Dalam, Tebet, South Jakarta, Indonesia – 12870</p>
+
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                />
+              <div className="relative mx-auto aspect-[25/24] max-w-[300px] lg:mr-0">
               </div>
             </div>
           </div>

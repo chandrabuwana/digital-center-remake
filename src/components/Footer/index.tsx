@@ -22,9 +22,9 @@ const Footer = () => {
                 Transform your business to maximize its potential growth through in-depth business analysis and the implementation of the latest technology
               </p>
             </div>
-            <div className="flex flex-col p-4 text-center justify-between items-center">
-              <button className="text-white font-kanit hover:bg-white hover:text-black md:p-9">Instagram</button>
-              <button className="text-white font-kanit hover:bg-white hover:text-black md:p-9">Linkedin</button>
+            <div className="flex flex-col p-0 text-center justify-between items-center">
+              <button className="text-white font-kanit  p-10 border border-gray-100 hover:bg-white hover:text-black md:p-9">Instagram</button>
+              <button className="text-white font-kanit p-10 border border-gray-100 hover:bg-white hover:text-black md:p-9">Linkedin</button>
             </div>
             <div className="p-4 text-center ">
               <h1 className="text-9xl text-white font-kanit hover:animate-bounce animate-twice animate-ease-linear">Lets Talk</h1>
