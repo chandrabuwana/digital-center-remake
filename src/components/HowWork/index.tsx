@@ -28,10 +28,10 @@ const testimonialData: Testimonial[] = [
 
 const HowWork = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-white relative z-10 py-12 md:py-20">
+    <section className="dark:bg-bg-color-dark bg-white relative z-10 py-2 md:py-20">
       <div className="container">
         <div className="flex flex-col items-center justify-center space-y-10 ">
-          <p className="font-kanit rounded-xl p px-4 y-8 border border-black">Processing</p>
+          <p className="font-kanit rounded-xl  px-4  border border-black">Processing</p>
         </div>
         <SectionTitle
           title="How we work"

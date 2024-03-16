@@ -1,6 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
+import Image from "next/image"
 import Link from "next/link"
 
-/* eslint-disable @next/next/no-img-element */
 const Quote = () => {
   return (
     <section className="bg-[#F2E9E4]">
@@ -20,19 +21,14 @@ const Quote = () => {
             <p className="text-left text-[20px] font-kanit">Utilizing cutting-edge design approaches and
               the latest technologies, you will be streamlined
               and efficient on a year-over-year basis.</p>
-            <div className="flex justify-start items-center flex-1 bg-blue-300">
-              <Link
-                href="/about"
-                className="py-4 rounded-lg my-10 bg-red-400 text-left px-4"
-              >
+            <div className="flex">
+              <Link href="/about" className="bg-primary mt-2 text-white font-bold py-2 px-4 rounded mr-auto flex items-center">
                 Get a Quote
+                <Image src="/arrow-right-white-icon.svg" alt="arrow-right" className="ml-2" width={12} height={12} />
               </Link>
-
             </div>
           </div>
-
         </div>
-
       </div>
     </section>
   )

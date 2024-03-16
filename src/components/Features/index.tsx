@@ -17,7 +17,7 @@ const featuresData = [
 ]
 const Features = () => {
   return (
-    <section className="bg-[#F7F7FC]">
+    <section className="bg-[#F7F7FC] py-16">
       <div className="container">
         <div className="grid grid-cols-1 items-center justify-between lg:grid-cols-2">
           <div className="w-full mb-2">
